@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <!-- 1.h1 - h6 -heading
+    2. p - paragraph
+    3. img - image
+    4, a - anchor
+    5. ul, li - unordered list, list item
+    6. table
+    7. input
+    8.button
+    9.div 
+-->
+    <head>
+        <title>Web-Design with NDD</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="main.css" >
+        <!-- <style>
+            h1{
+                color : blue;
+                font-size : 30px;
+            }
+        </style> -->
+        <style>
+            .box{
+                width : 50%;
+                height : 50vh;
+                background-color : rgb(194, 148, 148);
+            }
+
+            .box::before{
+                content:"IT cạp đất mà ăn";
+                display: block;
+                width : 150px; 
+                height : 100px;
+                background-color :rgb(185, 14, 14);
+            }
+            h1::first-letter{
+                font-size : 100px;
+                color :black;
+            }
+            a::after{
+                content : "("attr(href)")";
+            }
+            h1::first-line{
+                color:green;
+                font-size : 50px;
+            }
+            h1::selection{
+                background-color :pink;
+                color: white;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <div class="box" ></div>
+        
+       <div>
+        <h1> CSS in HTML ! </h1>
+
+        <input name = "gender" type="checkbox">
+        <input name = "gender" type="checkbox">
+        <input name = "gender" type="checkbox">
+ 
+        <button>Đăng Kí</button>
+ 
+        <p> Front end lương 3000 đô</p>
+        <img src="https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?size=626&ext=jpg" > <br/> 
+        <p1>Link is here :) <br/> </p1> 
+        <a href="https://www.facebook.com/"> link tới web học FE </a> <br/>
+        
+        <a href="https://mail.google.com/mail/u/1/#inbox" >Học lập trình full stack</a>
+            
+        <ol>
+            <li>CSS selector</li>
+            <li>ID and class</li>
+            <li>Attribute in HTML</li>
+            <li>Variable</li>
+        </ol>
+         
+        <table>
+            <thead>
+                 <th>STT</th>
+                 <th>Tên</th>
+                 <th>Địa chỉ</th>
+            </thead>
+ 
+ 
+            <tbody>
+                 <tr>
+                    <td>1</td>
+                    <td>D Nguyen</td>
+                    <td>Ha Noi</td>
+                 </tr>
+                 <tr>
+                    <td>2</td>
+                    <td>Khang Le</td>
+                    <td>Ha Noi </td>
+                 </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+
+</html>
